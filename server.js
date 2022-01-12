@@ -69,7 +69,7 @@ function startPrompt() {
         }
     })
  };
- / View all roles
+ // View all roles
 function viewAllRoles() {
     const sql = `SELECT * FROM role`;
     db.query(sql, (err, result) => {
